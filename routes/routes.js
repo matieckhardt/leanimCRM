@@ -36,9 +36,12 @@ router.get( '/productos', (req,res) => {
 });
 
 // rutas a backend clientes
-router.get( '/panelClientes/:id', (req,res) => {
+router.get('/panelClientes/:id', (req,res) => {
     res.render('panelClientes')
 });
-
+// rutas a backend clientes
+router.get('/panelClientes', (req,res) => {
+    res.render('panelClientes')
+});
 
 module.exports = router;
