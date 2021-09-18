@@ -31,7 +31,7 @@ function logear() {
 $(window).on("load", function () {
   auth.onAuthStateChanged(userLogged => {
     if (!userLogged) {
-      // window.location.href = "./Login"
+      // window.location.href = "/login"
       console.log('clear y redirect por login')
       sessionStorage.clear()
     }

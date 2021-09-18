@@ -13,7 +13,7 @@ document.onreadystatechange = function (e) {
       default:
         auth.signOut().then(() => {
           console.log('logout y redirect por rol')
-          // window.location.href = "./Login";
+          // window.location.href = "/login";
         })
         break;
     }
