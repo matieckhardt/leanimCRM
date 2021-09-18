@@ -1,0 +1,21 @@
+{
+  "name": "leanim-fb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "firebase-admin": "^9.11.1",
+    "firebase-tools": "^9.18.0",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
